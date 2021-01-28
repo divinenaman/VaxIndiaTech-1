@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Vax India Tech (VIT)</title>
+
+        <!-- favicon -->
+        <link href="favicon.png" rel=icon>
+
+        <!-- web-fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Style CSS -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- jumbotron animation css -->
+        <link rel="stylesheet" href="css/mycss.css">
+        <link rel="stylesheet" href="css/if_u_want.css">
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar">
+        <div id="main-wrapper">
+            <!-- Page Preloader -->
+            <div id="preloader">
+                <div id="status">
+                    <div class="status-mes"></div>
+                </div>
+            </div>
+
+            <header class="header">
+                <!-- Navigation -->
+                <nav class="navbar main-menu" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand page-scroll" href="#page-top"><img src="./img/Logo.jpg" style="width:230px;" alt=""></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                            <ul class="nav navbar-nav">
+                                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                                <li class="hidden"><a href="#page-top"></a></li>
+                                <li><a class="page-scroll" href="#section-intro">Abstract</a></li>
+                                <li><a class="page-scroll" href="#section-problems">Problems</a></li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EY Techathon</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <div><a class="dropdown-item" href="https://dscvitc.github.io/VaxIndiaTech-models.github.io/">Vax India Tech EY Website</a></div>
+                                      <div><a class="dropdown-item" href="https://colab.research.google.com/gist/PranavMotarwar/1e719c3a2239fee4cbb60c69ba75cb5c/ey-vax-india-tech.ipynb">Data Forecasting ipynb</a></div>
+                                      <div><a class="dropdown-item" href="https://vaxindiatech.shinyapps.io/EYcontrol/">Herd Immunity Estimator</a></div>
+                                      <div><a class="dropdown-item" href="https://drive.google.com/file/d/1fklJjRPDDUh7CAc8TuIOeYn-uM9dCO2P/view?usp=sharing">Statewise Priority Classification Model</a></div>
+                                      <div><a class="dropdown-item" href="https://colab.research.google.com/gist/vedantrokde/39c87fbe963e5124a557020759af0650/data-creation.ipynb#scrollTo=CjpYPOkxGN5k">Phasewise Synthetic Dataset Creation ipynb</a></div>
+                                      <div><a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1_53QX6FGFy_ZG-PxCJmvEKwiA-kNaunV5cBvSgGWbgI/edit?usp=sharing">Phasewise Dataset</a></div>
+                                      <div><a class="dropdown-item" href="https://colab.research.google.com/gist/PranavMotarwar/42f51c76bc275024e5dce96c8c05132b/ai-algorithm-for-herd-immunity-model.ipynb">Phasewise Dynamic Rollout Regression Model</a></div>
+                                      <div><a class="dropdown-item" href="https://dscvitc.github.io/VaxIndiaTechEstimator.github.io/#headerSlider">Vaccine Distribution Estimator</a></div>
+                                      <div><a class="dropdown-item" href="https://drive.google.com/file/d/1NW7YP9U5ppAuE3Aj4Gj5MvfJTrvp5Kga/view?usp=sharing">Final Presentation</a></div>
+                                    </div>
+                                </li>
+
+                                <li><a class="page-scroll" href="#section-map">Visualizations</a></li>   
+                                <li><a class="" href="https://dscvitc.github.io/VaxIndiaTechEstimator.github.io/index.html" target="_blank">Estimators</a></li>
+                                <li><a class="page-scroll" href="#section-docs">Analytical Models</a></li>
+                                <li><a class="page-scroll" href="#section-speaker">Team</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
+                <!-- .nav -->
+            </header>
+
+            <div class="jumbotron text-center back" style="background-image: url(./img/image.jpg);">
+                <div class="content" style="position: absolute;top:430px;">
+                    <h1>Vax India Tech</h1>
+                    <p class="lead">Provident Vaccine Distribution Strategy for India</p>
+                    <a class="btn btn-default btn-lg page-scroll mybtn" href="#section-intro" style="transition: 0.5s;">LET'S DIVE IN</a>
+                </div>
+            </div>
+            <!-- .Jumbotron-->
+
+            <section id="section-intro" class="section-wrapper about-event">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="lead">
+                                Amidst the COVID-19 Pandemic and there is rapid progress in the development of the potential vaccine. A global alliance of countries and the pharmaceutical industry are working towards a common goal.
+                            </p>
+                            <p class="lead">
+                                This brings us an optimal time for investing in vaccine distribution strategies and managing this monumental task of distributing the vaccine keeping in mind the global perspective and requirements at the grassroots level as well as keeping our technology stack ready to be deployed as soon as the vaccine is proven safe and effective.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <address>
+                                <strong>Vellore Institute of Technology, Chennai Campus, Chennai - 600127</strong>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .about-event -->
+
+            <section id="section-problems" class="section-wrapper problems-section gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h1>INDIA SPECIFIC PROBLEMS</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-content">
+                                <img src="./img/Fishbone.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="section-content-links">
+                                <a href="#" class="btn btn-primary">Cold chain management</a>
+                                <a href="#" class="btn btn-primary">Personnel</a>
+                                <a href="#" class="btn btn-primary">Logistics</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="section-content-links">
+                                <a href="#" class="btn btn-primary">Vaccine Prioitization</a>                           
+                                <a href="#" class="btn btn-primary">Quality Control</a>
+                                <a href="#" class="btn btn-primary">Surveillance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .section-problems -->
+
+            <section id="section-map" class="section-wrapper gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h1>COVID'19 Testing Center Data Visualization</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class='tableauPlaceholder' id='viz1607233324817' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IndianStatesTestingCenters&#47;Sheet11&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;IndianStatesTestingCenters&#47;Sheet11?:language=en&amp;:embed=y&amp;:display_count=y&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IndianStatesTestingCenters&#47;Sheet11&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+                            <div class='tableauPlaceholder' id='viz1607233370527' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IndianStatesTestingCenterAnalysis&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IndianStatesTestingCenterAnalysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;IndianStatesTestingCenterAnalysis&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+                            <div class='tableauPlaceholder' id='viz1607233447773' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16068824908140&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_16068824908140&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16068824908140&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .map-section -->
+
+            <!-- <section id="section-estimators" class="section-wrapper gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h1>Estimators</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <iframe src="https://duraphe-ankita.shinyapps.io/COVIDallEstimators/" width="100%" height="620px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- .estimators-event -->
+
+            <section id="section-docs" class="section-wrapper pricing-section gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h1>ANALYTICAL MODELS</h1>
+                                <p>Quickly synthesize low-risk high-yield e-markets without dynamic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="pricing-table-default text-center">
+                                <div class="pricing-head">
+                                    <h3>TRIZ</h3>
+                                    <!-- <span class="price"><sup>$</sup>100</span> -->
+                                </div>
+                                <!-- <div class="pricing-detail">
+                                    <ul class="pricing-list pink-i">
+                                        <li>Main keynote speeches</li>
+                                        <li>Access to all areas</li>
+                                        <li>Lunch on day 1</li>
+                                    </ul>
+                                </div> -->
+                                <br>
+                                <a href="https://drive.google.com/file/d/1B0-0QwFWyVhm3hScylJk6j3QQsprQ2wB/view?usp=sharing" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="pricing-table-default text-center">
+                                <div class="pricing-head">
+                                    <h3>SIR and SEIR Model</h3>
+                                </div>
+                                <br>
+                                <a href="https://drive.google.com/file/d/1S1Z2Op-7u7UvOLxsu0QEwlO9pzwN0dWr/view?usp=sharing" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="pricing-table-default text-center">
+                                <div class="pricing-head">
+                                    <h3>Vaccine Estimators</h3>
+                                </div>
+                                <br>
+                                <a href="https://drive.google.com/file/d/1rR3vjF3Vi4uKpEIYYU4AhfkUcexkL3_Q/view?usp=sharing" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .docs-section -->
+
+            <section id="section-speaker" class="section-wrapper team gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h1>Team</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/DrSusan.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Dr. Susan Elias
+                                        <small>Deputy Director, Research Division of Advanced Data Science</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/Preethi.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Preethi Chandirasekeran
+                                        <small>Undergraduate</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/Rudra.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Rudra Patil
+                                        <small>Undergraduate</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/Vedant.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Vedant Rokde
+                                        <small>Undergraduate</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/Pranav.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Pranav Motarwar
+                                        <small>Undergraduate</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <figure class="thumbnail">
+                                <a href="#"><img src="img/Ankita.jpg" class="img-responsive" alt="Image"></a>
+                                <figcaption class="caption text-center">
+                                    <h3>Ankita Duraphe
+                                        <small>Undergraduate</small>
+                                    </h3>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .team -->
+
+            <footer class="footer">
+                <div class="copyright-section">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="copytext text-center">&copy; Conference. All rights reserved | Design By: <a href="https://uicookies.com">uiCookies</a></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- #main-wrapper -->
+
+
+        <!-- jquery -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+
+        <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <!--<script src="js/one-page-nav.js"></script>-->
+        <script src="js/scripts.js"></script>
+
+        <!-- map-script-1 -->
+        <script src="js/map_1.js"></script>
+
+        <!-- map-script-2 -->
+        <script src="js/map_2.js"></script>
+
+        <!-- map-script-1 -->
+        <script src="js/map_3.js"></script>
+    </body>
+</html>
