@@ -1,0 +1,72 @@
+.news-event .left
+{
+    width: 50%;
+    height: auto;
+    clear: right;
+    float: left;
+    position: relative;
+    left: 12%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.news-event .right
+{
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 7%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.news-event .con
+{
+    width:55%;
+    height: 200px;
+    overflow: scroll;
+    background-color: rgba(216, 216, 216, 0.664);
+    border-radius: 6px;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.news-event .heading
+{
+    font-size: 25px;
+    color: darkblue;
+}
+.news-event .con::-webkit-scrollbar
+{
+    width: 12px;
+}
+.news-event .news
+{
+    background-image: url(../img/bac1.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-event .con::-webkit-scrollbar-track
+{
+    background-color:rgba(216, 216, 216, 0);
+    border-radius: 10px;
+}
+.news-event .con::-webkit-scrollbar-thumb 
+{
+    border-radius: 10px;
+    background-color: rgb(153, 153, 153);
+}
+.news-event .con::-webkit-scrollbar-corner
+{
+    background-color: rgba(216, 216, 216, 0);   
+}
+.news-event .text
+{
+    padding-left: 11px;
+    padding-top: 5px;
+}
+
+.bg-cust{
+    background: url(../img/news_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

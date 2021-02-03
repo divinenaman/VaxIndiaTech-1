@@ -477,9 +477,9 @@ button:focus,
 .team .thumbnail img {
     object-fit: cover;
     object-position: 100% 0;
-
-    width: 300px;
-    height: 337px;
+    border-radius: 90%;
+    width: 250px;
+    height: 287px;
 }
 
 .team .thumbnail .caption {
@@ -567,18 +567,18 @@ button:focus,
 }
 
 .problems-section .section-content img{
-    width: 96%;
+    width: 100%;
     height: auto;
 }
 
 .problems-section .section-content-links{
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .problems-section .section-content-links a{
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 
 /* --------------------------

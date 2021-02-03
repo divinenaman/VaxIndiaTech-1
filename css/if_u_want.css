@@ -1,6 +1,7 @@
 .back
 {
     animation: changebg 16s ease-in-out infinite;
+    transition: background-image 20s ease; 
 }
 @keyframes changebg
 {
